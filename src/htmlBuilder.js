@@ -31,8 +31,6 @@ const generateHead = () => `
   </head>
 `;
 
-
-
 const generateBody = (xrayUrl, singboxUrl, clashUrl, baseUrl) => `
   <body>
     ${generateDarkModeToggle()}
@@ -59,6 +57,12 @@ const generateDarkModeToggle = () => `
 <button id="darkModeToggle" class="btn btn-outline-secondary">
 <i class="fas fa-moon"></i>
 </button>
+`;
+
+const generateGithubLink = () => `
+<a href="" target="_blank" rel="" class="">
+<i class=""></i>
+</a>
 `;
 
 const generateCardHeader = () => `
